@@ -147,6 +147,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="css\customstylesheet.css" />
+    <Content Include="Database_script\ElibraryDB.sql" />
     <Content Include="datatables\css\datatables.css" />
     <Content Include="datatables\js\datatables.js" />
     <Content Include="imgs\adminuser.png" />
