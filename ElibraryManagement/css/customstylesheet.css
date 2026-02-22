@@ -3,16 +3,16 @@
     text-decoration: none !important;
 }
 
-.footerlinks:hover {
-    color: #ffd800;
-}
-
 #footer1 {
-    background: #762b00;
+    background: #1e88e5; /* albastru mediu */
 }
 
 #footer2 {
-    background: #531f00;
+    background: #1565c0; /* albastru mai închis */
+}
+
+.footerlinks:hover {
+    color: #82cfff; /* albastru foarte deschis */
 }
 
 .text-justify {
