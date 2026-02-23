@@ -132,6 +132,7 @@
                                     <asp:ListItem Text="Christian Ethics" Value="ChristianEthics" />
                                     <asp:ListItem Text="Prayer" Value="Prayer" />
                                     <asp:ListItem Text="Worship" Value="Worship" />
+                                    <asp:ListItem Text="Christian Fantasy" Value="Christian Fantasy" />
                                 </asp:ListBox>
                             </div>
                         </div>
