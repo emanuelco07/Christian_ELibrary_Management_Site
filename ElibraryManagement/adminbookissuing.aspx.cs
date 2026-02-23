@@ -28,7 +28,7 @@ namespace ElibraryManagement
         //Issue Book click event
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (check_if_book_exists() == true && check_if_member_exists() == true)
+            if (check_if_book_exists_for_issuing() == true && check_if_member_exists() == true)
                 if (check_if_issues_entry_exists() == true)
                     Response.Write("<script>alert('This Member already has this book!');</script>");
                 else
@@ -40,7 +40,7 @@ namespace ElibraryManagement
         //Return Book click event
         protected void Button4_Click(object sender, EventArgs e)
         {
-            if (check_if_book_exists() == true && check_if_member_exists() == true)
+            if (check_if_book_exists_for_returning() == true && check_if_member_exists() == true)
                 if (check_if_issues_entry_exists() == true)
                     return_book();
                 else
@@ -92,7 +92,7 @@ namespace ElibraryManagement
             }
         }
 
-        bool check_if_book_exists()
+        bool check_if_book_exists_for_issuing()
         {
             try
             {
@@ -101,6 +101,37 @@ namespace ElibraryManagement
                     con.Open();
 
                 SqlCommand cmd = new SqlCommand("SELECT * FROM book_master_tbl WHERE book_id = '" + TextBox1.Text.Trim() + "' AND current_stock > 0", con);
+                SqlDataAdapter da = new SqlDataAdapter(cmd); //dissconnected arhitecture
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                con.Close();
+
+                if (dt.Rows.Count >= 1)
+                    return true; //it means that we have a book with this ID
+                else
+                {
+                    Response.Write("<script>alert('The book cannot be borrowed!');</script>");
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                //because in the message we can have ' we will replace this
+                var safeMessage = ex.Message.Replace("'", "\\'");
+                Response.Write("<script>alert('" + safeMessage + "');</script>");
+            }
+            return false;
+        }
+
+        bool check_if_book_exists_for_returning()
+        {
+            try
+            {
+                SqlConnection con = new SqlConnection(strcon);
+                if (con.State == ConnectionState.Closed)
+                    con.Open();
+
+                SqlCommand cmd = new SqlCommand("SELECT * FROM book_master_tbl WHERE book_id = '" + TextBox1.Text.Trim() + "'", con);
                 SqlDataAdapter da = new SqlDataAdapter(cmd); //dissconnected arhitecture
                 DataTable dt = new DataTable();
                 da.Fill(dt);
