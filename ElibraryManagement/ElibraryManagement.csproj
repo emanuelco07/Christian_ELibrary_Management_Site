@@ -150,9 +150,16 @@
     <Content Include="Database_script\ElibraryDB.sql" />
     <Content Include="datatables\css\datatables.css" />
     <Content Include="datatables\js\datatables.js" />
+    <Content Include="github_images\author_management.png" />
+    <Content Include="github_images\book_catalog.png" />
+    <Content Include="github_images\book_inventory.png" />
+    <Content Include="github_images\book_issuing.png" />
     <Content Include="github_images\homepage1.png" />
     <Content Include="github_images\homepage2.png" />
+    <Content Include="github_images\member_management.png" />
+    <Content Include="github_images\publisher_management.png" />
     <Content Include="github_images\user_login.png" />
+    <Content Include="github_images\user_profile.png" />
     <Content Include="github_images\user_signup.png" />
     <Content Include="imgs\adminuser.png" />
     <Content Include="imgs\authordetails.png" />
