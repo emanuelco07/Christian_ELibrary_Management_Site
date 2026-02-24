@@ -57,6 +57,9 @@ You can find the visual representation of each page below:
 #### Book Catalog
 ![Book View](/ElibraryManagement/github_images/book_catalog.png)
 
+#### Book Issuing
+![User Profile](/ElibraryManagement/github_images/book_issuing.png)
+
 #### User Profile
 ![User Profile](/ElibraryManagement/github_images/user_profile.png)
 
@@ -66,3 +69,6 @@ You can find the visual representation of each page below:
 3.  Update the connection string in `web.config` or `appsettings.json` to point to your local SQL Server instance.
 4.  Apply migrations or run the provided SQL script to set up the database.
 5.  Run the project using IIS Express or the Kestrel server.
+
+### Tutorials
+If you want to do something like this watch: https://www.youtube.com/playlist?list=PLIY8eNdw5tW_ZQawyxK0Dd1cZXwcNFWn8
