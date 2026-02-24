@@ -22,10 +22,11 @@
                         <img width="150px" src="imgs/inventory.png" />
                         <h4>Digital Book Inventory</h4>
                         <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
-                            natoque penatibus et magnis dis parturient montes, nascetur 
-                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                            Explore our extensive collection of Christian literature, 
+                            from theological studies to daily devotionals. Our digital 
+                            inventory is meticulously organized to help you browse and 
+                            manage resources that support your spiritual growth and biblical 
+                            understanding.
                         </p>
                     </center>
                 </div>
@@ -34,10 +35,10 @@
                         <img width="150px" src="imgs/search_books.png" />
                         <h4>Search Books</h4>
                         <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
-                natoque penatibus et magnis dis parturient montes, nascetur 
-                ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                            Easily find the wisdom you're looking for. Use our advanced 
+                            search tools to filter by author, topic, or scripture reference. 
+                            Whether you are preparing a sermon or seeking personal inspiration, 
+                            the right book is just a few clicks away.
                         </p>
                     </center>
                 </div>
@@ -46,10 +47,10 @@
                         <img width="150px" src="imgs/defaulter_list.png" />
                         <h4>Defaulter List</h4>
                         <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
-                natoque penatibus et magnis dis parturient montes, nascetur 
-                ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                            To ensure that our resources remain available to the entire community, 
+                            we kindly track book returns. This section helps us maintain good 
+                            stewardship of our collection, reminding members to return borrowed 
+                            materials on time so others may also be blessed by them.
                         </p>
                     </center>
                 </div>
@@ -73,10 +74,9 @@
                     <img width="150px" src="imgs/sign_up.png" />
                     <h4>Sign Up</h4>
                     <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
-                        natoque penatibus et magnis dis parturient montes, nascetur 
-                        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                        Join our library community in just a few clicks! 
+                        Create your personal account to gain full access to our 
+                        collection. By signing up, you can easily borrow books.
                     </p>
                 </center>
             </div>
@@ -85,10 +85,11 @@
                     <img width="150px" src="imgs/search_books.png" />
                     <h4>Search Books</h4>
                     <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
-            natoque penatibus et magnis dis parturient montes, nascetur 
-            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                        Discover the resources you need for your faith walk. 
+                        Browse our online catalog from anywhere to find titles 
+                        that inspire and educate. Whether you’re looking for a 
+                        specific author or a new topic to study, our search tool 
+                        makes it simple.
                     </p>
                 </center>
             </div>
@@ -97,10 +98,10 @@
                     <img width="150px" src="imgs/visit_us.png" />
                     <h4>Visit Us</h4>
                     <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
-            natoque penatibus et magnis dis parturient montes, nascetur 
-            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                        Once you've found your next book, come say hello! 
+                        Visit our physical location to pick up your borrowed 
+                        materials and enjoy a quiet space for study and fellowship. 
+                        We look forward to welcoming you into our peaceful environment.
                     </p>
                 </center>
             </div>
