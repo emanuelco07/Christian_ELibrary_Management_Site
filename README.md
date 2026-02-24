@@ -43,8 +43,8 @@ You can find the visual representation of each page below:
 ![Home Page](/ElibraryManagement/github_images/homepage2.png)
 
 #### User Login and Sign Up
-![Login Page](path/to/your/image_login.png)
-![Sign Up Page](path/to/your/image_signup.png)
+![Login Page](/ElibraryManagement/github_images/user_login.png)
+![Sign Up Page](/ElibraryManagement/github_images/user_signup.png)
 
 #### Admin Dashboard and Inventory
 ![Book Inventory](path/to/your/image_inventory.png)
