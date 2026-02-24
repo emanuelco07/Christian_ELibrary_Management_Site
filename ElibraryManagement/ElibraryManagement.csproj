@@ -150,6 +150,10 @@
     <Content Include="Database_script\ElibraryDB.sql" />
     <Content Include="datatables\css\datatables.css" />
     <Content Include="datatables\js\datatables.js" />
+    <Content Include="github_images\homepage1.png" />
+    <Content Include="github_images\homepage2.png" />
+    <Content Include="github_images\user_login.png" />
+    <Content Include="github_images\user_singup.png" />
     <Content Include="imgs\adminuser.png" />
     <Content Include="imgs\authordetails.png" />
     <Content Include="imgs\books2.png" />
