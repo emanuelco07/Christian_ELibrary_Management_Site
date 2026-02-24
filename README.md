@@ -47,15 +47,18 @@ You can find the visual representation of each page below:
 ![Sign Up Page](/ElibraryManagement/github_images/user_signup.png)
 
 #### Admin Dashboard and Inventory
-![Book Inventory](path/to/your/image_inventory.png)
-![Author Management](path/to/your/image_authors.png)
-![Genre Management](path/to/your/image_genres.png)
+![Book Inventory](/ElibraryManagement/github_images/book_inventory.png)
+![Author Management](/ElibraryManagement/github_images/author_management.png)
+![Publisher Management](/ElibraryManagement/github_images/publisher_management.png)
 
 #### Member Management
-![Member List](path/to/your/image_members.png)
+![Member List](/ElibraryManagement/github_images/member_management.png)
 
 #### Book Catalog
-![Book View](path/to/your/image_bookview.png)
+![Book View](/ElibraryManagement/github_images/book_catalog.png)
+
+#### User Profile
+![User Profile](/ElibraryManagement/github_images/user_profile.png)
 
 ### Installation and Setup
 1.  Clone the repository: `git clone https://github.com/emanuelco07/Christian_ELibrary_Management_Site.git`
