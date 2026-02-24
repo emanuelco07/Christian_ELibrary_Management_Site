@@ -39,8 +39,8 @@ The following pages have been developed to support the site's functionality:
 You can find the visual representation of each page below:
 
 #### Home Page
-![Home Page](/ElibraryManagement/github_images/homepage1.jpgpng)
-![Home Page](/ElibraryManagement/github_images/homepage2.jpgpng)
+![Home Page](/ElibraryManagement/github_images/homepage1.png)
+![Home Page](/ElibraryManagement/github_images/homepage2.png)
 
 #### User Login and Sign Up
 ![Login Page](path/to/your/image_login.png)
